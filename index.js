@@ -12,5 +12,5 @@ function currentLine(line) {
 
 function takeANumber(line, name) {
   line.push(name)
-  return 'Welcome ${name}. You are ${line} in line.'
+  return 'Welcome ${name}. You are ${line.lencth} in line.'
 }
