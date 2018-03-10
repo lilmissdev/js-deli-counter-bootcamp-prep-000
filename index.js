@@ -10,6 +10,11 @@ function currentLine(line) {
  return `The line is currently: ${numbersAndNames.join(', ')}`
 }
 
+function nowServing(line) {
+  if (!line.length) {
+    return "There is nobody waiting to be served!"
+  }
+
 function takeANumber(line, name) {
   line.push(name)
   return 'Welcome ${name}. You are ${line.lencth} in line.'
