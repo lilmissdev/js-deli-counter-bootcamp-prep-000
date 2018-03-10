@@ -9,3 +9,5 @@ function currentLine(line) {
  }
  return `The line is currently: ${numbersAndNames.join(', ')}`
 }
+
+function takeANumber(line)
