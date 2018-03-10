@@ -10,6 +10,6 @@ function currentLine(line) {
  return `The line is currently: ${numbersAndNames.join(', ')}`
 }
 
-function takeANumber(katzDeliLine, "Ada") {
+function takeANumber(line, name) {
   numbersAndNames.push
 }
