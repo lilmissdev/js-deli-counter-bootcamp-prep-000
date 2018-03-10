@@ -11,5 +11,5 @@ function currentLine(line) {
 }
 
 function takeANumber(line, name) {
-  numbersAndNames.push
+  line.push 
 }
